@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/teal_700"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:text="أنصاريات" />
 
     <ListView
@@ -23,9 +23,63 @@
         android:layout_height="0dp"
         android:layout_weight="9"
         android:textAlignment="textEnd"
-
+        tools:listitem="@layout/audios_rows"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="1dp" />
+        tools:layout_editor_absoluteY="1dp" >
+
+    </ListView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="6dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="4dp">
+
+        <Button
+            android:id="@+id/button_previous"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxLines="1"
+            android:text="Previous"
+            android:textSize="14sp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="6dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="4dp">
+
+        <Button
+            android:id="@+id/button_pause"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxLines="1"
+            android:text="PAUSE" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="6dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="4dp">
+
+
+        <Button
+            android:id="@+id/button_next"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxLines="1"
+            android:text="Next" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+
 
 </LinearLayout>
