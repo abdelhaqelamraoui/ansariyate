@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ansariyat</string>
+    <string-array name="audioTitles">
+        <item>أسرار التعبد بالقرآن</item>
+        <item>صفات العبد الرباني</item>
+        <item>سنة الاستدراج</item>
+        <item>طريق النجاة وأسباب الهلاك</item>
+    </string-array>
+</resources>
