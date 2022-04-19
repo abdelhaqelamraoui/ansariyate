@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.ansariyat"
-        minSdk 21
+        minSdk 18
         targetSdk 31
         versionCode 1
         versionName "1.0"

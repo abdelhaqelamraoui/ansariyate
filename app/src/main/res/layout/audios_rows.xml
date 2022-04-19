@@ -2,41 +2,51 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="50dp"
-    android:background="#EDF6EF"
+    android:background="@color/listItem"
     android:orientation="vertical">
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:orientation="horizontal">
+
+        <view
+            android:id="@+id/row_tab_left"
+            class="android.view.View"
+            android:layout_width="10dp"
+            android:layout_weight="0.8"
+            android:layout_height="match_parent"
+            android:background="@color/row_tab" />
         <TextView
             android:id="@+id/row_text"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:ellipsize="end"
             android:gravity="center_vertical"
+            android:layout_gravity="clip_vertical"
             android:maxLines="1"
             android:padding="10dp"
-            android:text="Reminder Text"
+            android:text="Here is the audio filename"
             android:layout_weight="9"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textSize="18sp" />
         <view
-            android:id="@+id/row_tab"
+            android:id="@+id/row_tab_right"
             class="android.view.View"
             android:layout_width="10dp"
-            android:layout_weight="1"
+            android:layout_weight="0.8"
             android:layout_height="match_parent"
-            android:background="#09933C" />
+            android:background="@color/row_tab" />
 
 
-        android:textColor="@color/purple_500"
+
     </LinearLayout>
 
     <view
         class="android.view.View"
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:background="#333" />
+        android:background="@color/items_spliter" />
 
 </LinearLayout>

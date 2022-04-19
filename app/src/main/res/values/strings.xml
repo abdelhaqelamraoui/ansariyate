@@ -1,5 +1,13 @@
 <resources>
-    <string name="app_name">Ansariyat</string>
+    <string name="app_name">أنصاريات</string>
+    <string name="home_title"> مختارات الشيخ فريد الأنصاري رحمه الله</string>
+    <string name="author">by: Abdelhaq El Amraoui 17/04/2022</string>
+    <string name="suggest">اقترح درسا للشيخ</string>
+    <string name="about">حول المطور</string>
+    <string name="rateUs">تقييم</string>
+    <string name="prompt_title">عنوان الدرس</string>
+    <string name="prompt_input_hint">عنوان الدرس</string>
+    <string name="prompt_button_text">إرسال</string>
     <string-array name="audioTitles">
         <item>أسرار التعبد بالقرآن</item>
         <item>صفات العبد الرباني</item>

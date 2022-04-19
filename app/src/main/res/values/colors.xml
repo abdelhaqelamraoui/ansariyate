@@ -10,5 +10,10 @@
 
     <color name="uicolor">#066B61</color>
     <color name="barcolor">#05534B</color>
+    <color name="selecteditem">#70448F9E</color>
+    <color name="row_tab">#3583A8</color>
+    <color name="items_spliter">#333</color>
+    <color name="listItem">#EDF6EF</color>
+
 
 </resources>
